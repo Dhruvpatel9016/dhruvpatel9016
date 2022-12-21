@@ -6,6 +6,7 @@ void main()
 	int matrix2[3][3];
 	int i,j;
 
+	printf("\n\nEnter the Matrix 1 Elements : \n\n");
 	for(i=0;i<3;i++)
 	{
 		for(j=0;j<3;j++)
@@ -14,6 +15,7 @@ void main()
 			scanf("%d",&matrix1[i][j]);
 		}
 	}
+	printf("\n\nEnter the Matrix 2 Elements : \n\n");
 	for(i=0;i<3;i++)
 	{
 		for(j=0;j<3;j++)
@@ -27,7 +29,7 @@ void main()
 	{
 		for(j=0;j<3;j++)
 		{
-			printf("%d\n",matrix1[i][j]);
+			printf("%d\t",matrix1[i][j]);
 		}
 		printf("\n");	
 	}
@@ -37,7 +39,17 @@ void main()
 	{
 		for(j=0;j<3;j++)
 		{
-			printf("%d\n",matrix2[i][j]);
+			printf("%d\t",matrix2[i][j]);
+		}
+		printf("\n");	
+	}
+	
+	printf("\n\nHere the Addition of matrixs : \n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			printf("%d\t",(matrix1[i][j]+matrix2[i][j]));
 		}
 		printf("\n");	
 	}

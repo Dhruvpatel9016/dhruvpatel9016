@@ -40,8 +40,4 @@ void main()
 		printf("\n\tInvalid choice");
 	}
 	
-	
-	
-	
-
 }

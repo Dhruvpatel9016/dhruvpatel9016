@@ -2,7 +2,7 @@
 
 void main()
 {
-	printf("Welcome to C \t\t\tprograming\n");
+	printf("Welcome to C tprograming\n");
 	printf("In tops technology");
 	printf("\n\n\nTime is 10.30 to 12.00");
 	printf("\nFirst name:-Dhruv");
