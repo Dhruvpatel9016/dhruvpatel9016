@@ -3,7 +3,7 @@
 void main()
 {
 
-	printf("\n\t\xB2\xB2\xB2\xB2\xB2\xB2 Calculator \xB2\xB2\xB2\xB2\xB2\xB2");
+	printf("\n\n\t##_-_-_-_-_-_Calculator_-_-_-_-_-_##");
 	int a,b,choice;
 	printf("\n\n\tEnter A.: ");
 	scanf("%d",&a);
@@ -11,7 +11,7 @@ void main()
 	scanf("%d",&b);
 	printf("\n\tA.: %d , B.: %d",a,b);
 	
-	printf("\n\n\t\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2 Menu \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2");
+	printf("\n\n\t##_-_-_-_-_-_Menu_-_-_-_-_-_##");
 	printf("\n\n\tPress 1. Addition");
 	printf("\n\tPress 2. Subtraction");
 	printf("\n\tPress 3. Multiplication");
@@ -29,11 +29,11 @@ void main()
 	}
 	else if(choice==3)
 	{
-		printf("\n\tMultiplication : %d",(a*b));
+		printf("\n\tMultiplication : %lf",(a*b));
 	}
 	else if(choice==4)
 	{
-		printf("\n\tDivision : %.2f",(a/b));
+		printf("\n\tDivision : %.2f",((float)a/b));
 	}
 	else
 	{
