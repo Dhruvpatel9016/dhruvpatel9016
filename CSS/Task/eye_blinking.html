@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.main
+		{
+			margin: 100px auto;
+			height: 370px;
+			width: 500px;
+			display: flex;
+/*			background: red;*/
+			padding: 10px;
+		}
+		.eye 
+		{
+			height: 350px;
+			width: 240px;
+			background:  radial-gradient(white,grey,black);
+			border-radius: 50%;
+			position: relative;
+			overflow: hidden;
+			z-index: 0;
+		}
+		.blink
+		{
+			position: absolute;
+			height: 50px;
+			width: 40px;
+			top: 180px;
+			left: 150px;
+			border-radius: 50%;
+			background:  radial-gradient(white,black 50%);
+			z-index: 0;
+			animation: kik 2s infinite;
+		}
+		
+		.eye2 
+		{
+			height: 350px;
+			width: 240px;
+			background: linear-gradient(gray,gray,black);
+			position: absolute;
+			top:-200%;
+			left:0 ;
+			transition: .4s;
+			z-index: -1;
+		}
+
+		.main:hover .eye2 
+		{
+			top: 0;
+			z-index: 1;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+
+		<div class="eye">
+			<div class="blink"></div>
+			<div class="eye2"></div>
+		</div>
+
+		<div class="eye">
+			<div class="blink"></div>
+			<div class="eye2"></div>
+		</div>
+
+	</div>
+	
+
+</body>
+</html>

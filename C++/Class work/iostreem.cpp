@@ -2,6 +2,7 @@
 using namespace std;
 /*
 	C++ -> C + Class
+	object is an instance of class.
 */
 
 int main()
