@@ -1,0 +1,1091 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+.frimg{
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 50px;
+	display: flex;
+}
+.frimg .img1{
+	margin-right: 120px;
+	margin-top: 27px;
+}
+
+/*-----------------navbar start-------------*/
+.nav{
+/*	background: yellow;*/
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 25px;
+}
+.mainul{
+	display: flex;
+}
+.mainul .menu{
+	display: block;
+	border: none;
+	font-size: 17px;
+	font-weight: 600;
+	margin-right: 40px;
+}
+.mainul .menu a{
+	text-decoration: none;
+		color: #000;
+}
+.mainul .menu i{
+	font-size: 10px;
+	color: #000;
+}
+.mainul .menu::before{
+	content: "";
+	height: 10px ;
+	width: 50px;
+	background: red;
+}
+/*-----------------navbar end--------------*/
+
+
+
+
+
+
+
+.tranding{
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: 3.5fr 1fr;
+}
+.tranding .fr{
+	display: flex;
+	margin-top: 15px;
+}
+.fr h1{
+	font-size: 18px;
+	font-weight: 200;
+	
+}
+.fr p{
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.fr1 input{
+	height: 45px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	padding-left: 10px;
+	border:2px solid #aaa;
+	border-right: none;
+}
+.fr1 .fa-search{
+	margin-left: -5px;
+	height: 45px;
+	width: 30px;
+	border:2px solid #aaa;
+	border-left: none;
+	line-height: 39px;
+	border-top-right-radius:30px ;
+	border-bottom-right-radius: 30px;
+	text-align: center;
+}
+
+
+/*<!-- img gallary 1 start -->*/
+.imggal1{
+	height: 450px;
+	width: 70%;
+	margin: 20px auto;
+	display: grid;
+	gap: 2px;
+	grid-template-columns: 2fr 2fr;
+}
+.imgfr{
+	height: 100%;
+	background: url(https://themewagon.github.io/magnews2/images/post-01.jpg);
+	background-size: 100% 100%;
+}
+.imgfrdt{
+	background: rgba(10, 10, 10, 0.2);
+	height: 450px;
+	padding: 20px;
+	transition: 0.2s;
+}
+	.imgfrdt div{
+		font-size: 15px;
+		width: 70px;
+		height: 22px;
+		margin-top: 280px;
+		border: 1px solid #fff;
+		text-align: center;
+		font-weight: 500;
+		transition: 0.3s;
+	}
+	.imgfrdt div a{
+		color: #fff;
+		padding: 5px;
+		text-decoration: none;
+		transition: 0.2s;
+	}
+	.imgfrdt h1{
+		color: #fff;
+		margin-top: 10px;
+		font-size: 30px;
+		font-weight: 800;
+		transition: 0.3s;
+	}
+	.imgfrdt p{
+		color: #fff;
+		margin-top: 10px;
+		font-size: 14px;
+		font-weight: 400;	
+	}
+
+.imgfrdt:hover{
+	background: rgba(255, 255, 255, 0.0);
+}
+.imgfrdt div:hover {
+	background: #17b978;
+	border:#17b978 ;
+}
+.imgfrdt h1:hover {
+	color: #17b978;
+}
+
+.imgsnd{
+	height: 100%;
+	display: grid;
+	gap: 2px;
+	grid-template-rows: 2.7fr 2fr;
+}
+
+.imgsnd .row1{
+	height: 100%;
+	background: url(https://themewagon.github.io/magnews2/images/post-02.jpg);
+	background-size: 100% 100%;
+}
+.row1 .imgsnddt{
+	background: rgba(10, 10, 10, 0.2);
+	height: 100%;
+	padding: 20px;
+	transition: 0.2s;
+}
+	.imgsnddt div{
+		font-size: 15px;
+		width: 70px;
+		height: 22px;
+		margin-top:130px;
+		border: 1px solid #fff;
+		text-align: center;
+		font-weight: 500;
+		transition: 0.3s;
+	}
+	.imgsnddt div a{
+		color: #fff;
+		padding: 5px;
+		text-decoration: none;
+		transition: 0.2s;
+	}
+
+	.imgsnddt h1{
+		color: #fff;
+		margin-top: 10px;
+		font-size: 24px;
+		font-weight: 700;
+		transition: 0.3s;
+	}
+.imgsnddt:hover{
+	background: rgba(255, 255, 255, 0.0);
+}
+.imgsnddt div:hover {
+	background: #17b978;
+	border:#17b978 ;
+}
+.imgsnddt h1:hover {
+	color: #17b978;
+}
+
+.imgsnd .row2{
+	height: 100%;
+	display: grid;
+	gap: 2px;
+	grid-template-columns: 2fr 2fr;
+}
+.row2 .img1{
+	height: 100%;
+	background: url(https://themewagon.github.io/magnews2/images/post-03.jpg);
+	background-size: 100% 100%;
+}
+
+.img1 .row1img1{
+	background: rgba(10, 10, 10, 0.2);
+	height: 100%;
+	padding: 20px;
+	transition: 0.2s;
+}
+.row1img1 div{
+		font-size: 15px;
+		width: 80px;
+		height: 20px;
+		margin-top:80px;
+		border: 1px solid #fff;
+		text-align: center;
+		font-weight: 500;
+		transition: 0.3s;
+	}
+	.row1img1 div a{
+		color: #fff;
+		padding: 5px;
+		text-decoration: none;
+		transition: 0.2s;
+	}
+
+	.row1img1 h1{
+		color: #fff;
+		margin-top: 10px;
+		font-size: 17px;
+		font-weight: 700;
+		transition: 0.3s;
+	}
+.row1img1:hover{
+	background: rgba(255, 255, 255, 0.0);
+}
+.row1img1 div:hover {
+	background: #17b978;
+	border:#17b978 ;
+}
+.row1img1 h1:hover {
+	color: #17b978;
+}
+
+
+
+.row2 .img2{
+	height: 100%;
+	background: url(https://themewagon.github.io/magnews2/images/post-04.jpg);
+	background-size: 100% 100%;
+}
+.img2 .row1img2{
+	background: rgba(10, 10, 10, 0.2);
+	height: 100%;
+	padding: 20px;
+	transition: 0.2s;
+}
+.row1img2 div{
+		font-size: 15px;
+		width: 70px;
+		height: 20px;
+		margin-top:80px;
+		border: 1px solid #fff;
+		text-align: center;
+		font-weight: 500;
+		transition: 0.3s;
+	}
+	.row1img2 div a{
+		color: #fff;
+		padding: 5px;
+		text-decoration: none;
+		transition: 0.2s;
+	}
+
+	.row1img2 h1{
+		color: #fff;
+		margin-top: 10px;
+		font-size: 17px;
+		font-weight: 700;
+		transition: 0.3s;
+	}
+.row1img2:hover{
+	background: rgba(255, 255, 255, 0.0);
+}
+.row1img2 div:hover {
+	background: #17b978;
+	border:#17b978 ;
+}
+.row1img2 h1:hover {
+	color: #17b978;
+}
+
+
+/*	<!-- img gallary 1 end -->*/
+
+/*  <!---------------------------------- Entertainment start ---------------------------------->*/
+
+.Entiment{
+/*	height: 1000px;*/
+	width: 70%;
+	margin: 0px auto;
+	margin-top: 80px;
+	display: grid;
+	gap: 30px;
+	grid-template-columns: 4fr 2fr;
+}
+
+	/*<!----------enti-1 start--------->*/
+		.enti1{
+/*			border: 2px solid blue;*/
+		}
+
+		/*------port-1------ */
+			.port1{
+				display: grid;
+				gap: 30px;
+				grid-template-rows: 50px 370px;
+			}
+				.port1 .rowline{
+					display: flex;
+					border: 1px solid #aaa;
+					border-left: 5px solid darkred;
+				}
+					.rowline h1{
+						color: darkred;
+						font-size: 23px;
+						line-height: 50px;
+						margin-left: 12px;
+						font-family: Roboto-Regular;
+						font-weight: 500;
+					}
+					.rowline ul{
+						display: flex;
+						margin-left: 30px;
+					}
+					.rowline li{
+						display: block;
+						font-size: 16px;
+						line-height: 50px;
+						font-weight: 300;
+						margin-right: 17px;
+					}
+					.rowline a{
+						text-decoration: none;
+						margin-left: 130px;
+						color: #aaa;
+						line-height: 50px;
+						font-size: 16px;
+					}
+
+				.port1 .multicoll{
+					display: grid;
+					gap: 35px;
+					grid-template-columns: 2fr 2.2fr;
+				}
+					.multicoll .bigtemp{
+						height: 100%;
+					}
+						.bigtemp .bgimg1{
+							height: 260px;
+							background: url(https://themewagon.github.io/magnews2/images/post-05.jpg);
+							background-size: 100% 100%;
+						}
+							.bgimg1 div{
+								height: 260px;
+								transition: 0.3s;
+								background: rgba(10, 10, 10, 0.2);
+							}
+							.bgimg1 div:hover{
+								background: transparent;
+							}
+						.bigtemp h1{
+							font-size: 22px;
+							font-weight: 300;
+							margin-top: 20px;
+							transition: 0.3s;
+						}
+						.bigtemp p{
+							font-size: 15px;
+							margin-top: 10px;
+							font-size: 900;
+						}
+						.bigtemp h1:hover{
+							color:  #17b978;
+						}
+
+					.multicoll .smltemp{
+						height: 100%;
+						display: grid;
+						gap: 35px;
+						grid-template-rows: 85px 85px 85px;
+					}
+						.smltemp .temp{
+							display: grid;
+							gap: 10px;
+							grid-template-columns: 2fr 4fr;
+						}
+							.temp .temp1img{
+								height: 80px;
+								background: url(https://themewagon.github.io/magnews2/images/post-06.jpg);
+								background-size: 100% 100%;
+							}
+								.temp1img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp1img div:hover{
+									background: transparent;
+								}
+
+								.temp .temp2img{
+									height: 80px;
+									background: url(https://themewagon.github.io/magnews2/images/post-07.jpg);
+									background-size: 100% 100%;
+								}
+								.temp2img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp2img div:hover{
+									background: transparent;
+								}
+
+								.temp .temp3img{
+									height: 80px;
+									background: url(https://themewagon.github.io/magnews2/images/post-07.jpg);
+									background-size: 100% 100%;
+								}
+								.temp3img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp3img div:hover{
+									background: transparent;
+								}
+
+							.temp h1{
+								font-size: 16px;
+								font-weight: 900;
+								transition: 0.3s;
+							}
+							.temp p{
+								font-size: 12px;
+								font-weight: 900;
+								color: #aaa;
+								margin-top: 7px;
+							}
+							.temp h1:hover{
+								color:  #17b978;
+							}
+
+				/*------port-2------ */
+
+				.ma2{
+					margin-top: 50px;
+				}
+				.ma2 .ro2{
+					border-left: 5px solid #17b978;
+				}
+					.ro2 h1{
+						color: #17b978;
+					}
+				.bigtemp .bgimg2{
+								height: 260px;
+								background: url(https://themewagon.github.io/magnews2/images/post-13.jpg);
+								background-size: 100% 100%;
+							}
+							.bgimg2 div{
+								height: 260px;
+								transition: 0.3s;
+								background: rgba(10, 10, 10, 0.2);
+							}
+							.bgimg2 div:hover{
+								background: transparent;
+							}
+				.temp .temp4img{
+								height: 80px;
+								background: url(https://themewagon.github.io/magnews2/images/post-12.jpg);
+								background-size: 100% 100%;
+							}
+								.temp4img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp4img div:hover{
+									background: transparent;
+								}
+				.temp .temp5img{
+									height: 80px;
+									background: url(https://themewagon.github.io/magnews2/images/post-11.jpg);
+									background-size: 100% 100%;
+								}
+								.temp5img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp5img div:hover{
+									background: transparent;
+								}
+				.temp .temp6img{
+									height: 80px;
+									background: url(https://themewagon.github.io/magnews2/images/post-10.jpg);
+									background-size: 100% 100%;
+								}
+								.temp6img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp6img div:hover{
+									background: transparent;
+								}
+				/*------port-3------ */
+
+				.ma3{
+					margin-top: 50px;
+				}
+				.ma3 .ro3{
+					border-left: 5px solid #e3724a;;
+				}
+					.ro3 h1{
+						color: #e3724a;;
+					}
+					.ro3 a{
+						margin-left: 222px;
+					}
+				.bigtemp .bgimg3{
+							height: 260px;
+							background: url(https://themewagon.github.io/magnews2/images/post-14.jpg);
+							background-size: 100% 100%;
+						}
+							.bgimg3 div{
+								height: 260px;
+								transition: 0.3s;
+								background: rgba(10, 10, 10, 0.2);
+							}
+							.bgimg3 div:hover{
+								background: transparent;
+							}
+				.temp .temp7img{
+								height: 80px;
+								background: url(https://themewagon.github.io/magnews2/images/post-15.jpg);
+								background-size: 100% 100%;
+							}
+								.temp7img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp7img div:hover{
+									background: transparent;
+								}
+				.temp .temp8img{
+									height: 80px;
+									background: url(https://themewagon.github.io/magnews2/images/post-16.jpg);
+									background-size: 100% 100%;
+								}
+								.temp8img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp8img div:hover{
+									background: transparent;
+								}
+				.temp .temp9img{
+									height: 80px;
+									background: url(https://themewagon.github.io/magnews2/images/post-17.jpg);
+									background-size: 100% 100%;
+								}
+								.temp9img div{
+									height: 80px;
+									transition: 0.3s;
+									background: rgba(10, 10, 10, 0.2);
+								}								
+								.temp9img div:hover{
+									background: transparent;
+								}
+
+
+	/*<!----------enti-2 start--------->*/
+		.enti2{
+/*			background: hotpink;*/
+		}
+			.mostpopu{
+/*				background: lightcyan;*/
+			}
+				.mostpopu .titlemostpop{
+					height: 50px;
+					padding-left: 10px;
+					border: 1px solid #aaa;
+					border-left: 5px solid black;
+				}
+					.titlemostpop h1{
+						font-size: 20px;
+						font-weight: 700;
+						line-height: 50px;
+					}
+				.mostpopu .tepltmostpop{
+					margin-top: 30px;
+				}
+					.tepltmostpop .tpd{
+						display: grid;
+						grid-template-columns: 1fr 5fr;
+						height: 60px;
+						margin-bottom: 10px;
+					}
+						.tpd h1{
+							font-size: 16px;
+							font-weight: 600;
+						}
+						.tpd div{
+							text-align: center;
+							height: 35px;
+							line-height: 35px;
+							border-radius: 5px;
+							width: 35px;
+							background: gray;
+							color: #fff;
+							font-weight: 900;
+							font-size: 17px;
+						}
+
+			.magazinews{
+				height: 617px;
+				width: 85%;
+				margin: 0px auto;
+				margin-bottom: 55px;
+			}
+
+
+			.StayCon{
+
+			}
+				.StayCon .titleStayCon{
+					height: 50px;
+					padding-left: 10px;
+					border: 1px solid #aaa;
+					margin-bottom: 40px;
+					border-left: 5px solid black;
+				}
+					.titleStayCon h1{
+						font-size: 20px;
+						font-weight: 700;
+						line-height: 50px;
+					}
+
+				.StayCon .tepltStayCon{
+
+				}
+					.tepltStayCon div{
+						height: 50px;
+						margin-bottom: 8px;
+						display: grid;
+						grid-template-columns: 1fr 3fr 2fr;
+					}
+						.tepltStayCon div i{
+							font-size: 35px;
+						}
+						.tepltStayCon div h1{
+							font-size: 16px;
+							font-weight: 500;
+							line-height: 30px;
+						}
+						.tepltStayCon div p{
+							font-size: 13px;
+							font-weight: bold;
+							text-align: right;
+							line-height: 30px;
+						}
+
+					
+/*	<!---------------------------------- Entertainment end ---------------------------------->*/
+
+	.justadd{
+		width: 50%;
+		margin: 0px auto;
+	}
+
+/*<!----------------------------------- Latest Art start ----------------------------------->*/
+
+	.portalmain{
+		width: 70%;
+		margin: 0px auto;
+		margin-top: 80px;
+		display: grid;
+		gap: 30px;
+		grid-template-columns: 4fr 2fr;
+	}
+
+	/*<!------------------- portal-1 start------------------->*/
+
+	.portal1{
+/*		border: 2px solid yellow;*/
+		height: auto;
+	}
+		.titleart{
+			height: 50px;
+			padding-left: 10px;
+			border: 1px solid #aaa;
+			border-left: 5px solid black;
+			margin-bottom: 20px;
+		}
+			.titleart h1{
+						font-size: 22px;
+						font-weight: 700;
+						line-height: 50px;
+					}
+		.imgport{
+			
+		}
+
+		/*	img= 1,2 start.......*/
+			.fd{
+/*				border: 2px solid black;*/
+/*				height: 400px;*/
+				display: grid;
+				grid-template-columns: 2fr 2fr;
+				grid-gap: 40px;
+				margin-top: 40px;
+			}
+				.fd1{
+/*					border: 2px solid coral;*/
+				}
+					.fimg{
+						background:url("https://themewagon.github.io/magnews2/images/latest-01.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.fimg div{
+							height: 185px;
+							transition: 0.3s;
+							background: rgba(10, 10, 10, 0.2);
+						}							
+							.fimg div:hover{
+								background: transparent;
+							}
+				.fd2{
+/*					border: 2px solid yellow;*/
+				}
+					.f1img{
+						background:url("https://themewagon.github.io/magnews2/images/latest-02.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.f1img div{
+							height: 185px;
+							transition: 0.3s;
+							background: rgba(10, 10, 10, 0.2);
+						}							
+							.f1img div:hover{
+								background: transparent;
+							}
+					.ftext{
+					
+					}
+					.ftext h1{
+							font-size: 20px;
+							font-weight: 400;
+							margin-top: 20px;
+							transition: 0.3s;
+						}
+						.ftext p{
+							font-size: 15px;
+							margin-top: 10px;
+							color: #aaa;
+						}
+							.ftext p span{
+								font-weight: bolder;
+							}
+						.ftext h1:hover{
+							color:  #17b978;
+						}
+
+		/*	img= 3,4 start.......*/
+		.sd{
+/*				border: 2px solid black;*/
+/*				height: 400px;*/
+				display: grid;
+				grid-template-columns: 2fr 2fr;
+				grid-gap: 40px;
+				margin-top: 40px;
+			}
+			.sd1{
+/*					border: 2px solid coral;*/
+				}
+					.simg{
+						background:url("https://themewagon.github.io/magnews2/images/latest-03.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.simg div{
+							height: 185px;
+							transition: 0.3s;
+							background: rgba(10, 10, 10, 0.2);
+						}							
+							.simg div:hover{
+								background: transparent;
+							}
+				.sd2{
+/*					border: 2px solid yellow;*/
+				}
+					.s1img{
+						background:url("https://themewagon.github.io/magnews2/images/latest-04.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.s1img div{
+							height: 185px;
+							transition: 0.3s;
+							background: rgba(10, 10, 10, 0.2);
+						}							
+							.s1img div:hover{
+								background: transparent;
+							}
+					.stext{
+					
+					}
+					.stext h1{
+							font-size: 20px;
+							font-weight: 400;
+							margin-top: 20px;
+							transition: 0.3s;
+						}
+						.stext p{
+							font-size: 15px;
+							margin-top: 10px;
+							color: #aaa;
+						}
+							.stext p span{
+								font-weight: bolder;
+							}
+						.stext h1:hover{
+							color:  #17b978;
+						}
+
+		/*	img= 5,6 start.......*/
+		.td{
+/*				border: 2px solid black;*/
+/*				height: 400px;*/
+				display: grid;
+				grid-template-columns: 2fr 2fr;
+				grid-gap: 40px;
+				margin-top: 40px;
+			}
+			.td1{
+/*					border: 2px solid coral;*/
+				}
+					.timg{
+						background:url("https://themewagon.github.io/magnews2/images/latest-05.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.timg div{
+							height: 185px;
+							transition: 0.3s;
+							background: rgba(10, 10, 10, 0.2);
+						}							
+							.timg div:hover{
+								background: transparent;
+							}
+				.td2{
+/*					border: 2px solid yellow;*/
+				}
+					.t1img{
+						background:url("https://themewagon.github.io/magnews2/images/latest-06.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.t1img div{
+							height: 185px;
+							transition: 0.3s;
+							background: rgba(10, 10, 10, 0.2);
+						}							
+							.t1img div:hover{
+								background: transparent;
+							}
+					.ttext{
+					
+					}
+					.ttext h1{
+							font-size: 20px;
+							font-weight: 400;
+							margin-top: 20px;
+							transition: 0.3s;
+						}
+						.ttext p{
+							font-size: 15px;
+							margin-top: 10px;
+							color: #aaa;
+						}
+							.ttext p span{
+								font-weight: bolder;
+							}
+						.ttext h1:hover{
+							color:  #17b978;
+						}
+				
+	/*<!------------------- portal-1 end------------------->*/
+
+	/*<!------------------- portal-2 start------------------->*/
+
+	.portal2{
+		height: auto;
+/*		border: 2px solid red;*/
+	}
+
+		.porti{
+			height: 50px;
+			padding-left: 10px;
+			border: 1px solid #aaa;
+			border-left: 5px solid black;
+			margin-bottom: 40px;
+		}
+			.porti h1{
+						font-size: 22px;
+						font-weight: 700;
+						line-height: 50px;
+					}
+
+
+		.po1{
+/*					border: 2px solid coral;*/
+				}
+					.poimg{
+						background:url("https://themewagon.github.io/magnews2/images/video-01.jpg");
+						background-size: 100% 100%;
+						height: 185px;
+					}
+						.poimg .ibtn{
+							height: 185px;
+							width: 100%;
+							padding: 6px 0 0 150px;
+							margin: 0px auto;
+							transition: 0.3s;
+						}	
+							.poimg .ibtn i{
+								font-size: 30px;
+								text-align: center;
+								line-height: 185px;
+								color: #fff;
+								transition: 0.3s;
+							}						
+							.ibtn:hover i{
+								color:  #17b978;
+							}
+					.potext{
+						padding: 5px 8px 25px 30px;
+						background: #333;
+					}
+					.potext h1{
+							font-size: 24px;
+							color: #fff;
+							font-weight: 400;
+							margin-top: 20px;
+							transition: 0.3s;
+						}
+						.potext p{
+							font-size: 15px;
+							margin-top: 10px;
+							color: #aaa;
+						}
+							.potext p span{
+								font-weight: bolder;
+							}
+						.potext h1:hover{
+							color:  #17b978;
+						}
+
+		.subsb{
+			margin-top: 55px;
+			background: #17b978;
+			height: 250px;
+			padding: 30px;
+		}
+			.subsb h1{
+				color: #fff;
+			}
+			.subsb p{
+				margin-top: 10px;
+				line-height: 20px;
+				color: #fff;
+			}
+			.subsb div{
+				position: relative;
+				margin-top: 25px;
+			}
+				div input{
+					height: 50px;
+					width: 100%;
+					padding: 20px;
+					font-size: 18px;
+					text-decoration: none;
+					border: none;
+				}
+				div i{
+					position: absolute;
+					right: 20px;
+					top: 16px;
+					color: #aaa;
+				}
+				div i:hover{
+					color:  #17b978;
+				}
+
+		.tagpart{
+			height: auto;
+			margin-top: 55px;
+		}
+			.tagstitle{
+				height: 50px;
+				padding-left: 10px;
+				border: 1px solid #aaa;
+				border-left: 5px solid black;
+				margin-bottom: 40px;
+			}
+				.tagstitle h1{
+							font-size: 22px;
+							font-weight: 700;
+							line-height: 50px;
+						}
+
+			.roundport{
+				border: 2px solid #aaa;
+				border-radius: 20px;
+				padding: 10px 20px 10px 20px;
+			}
+			.tegtopa{
+				margin-top: 5px;
+				display: flex;
+			}
+				.tegtopa div{
+					margin-right: 10px;
+					color: #aaa;
+					font-weight: 900;
+				}
+	/*<!------------------- portal-2 end------------------->*/
+
+/*<!----------------------------------- Latest Art end ----------------------------------->*/
+
+/*<!----------------------------------- footer start ----------------------------------->*/
+
+
+	.footer{
+		height: 800px;
+		background: #222;
+		margin-top: 100px;
+	}
+		.foot{
+			width: 70%;
+			margin: 0px auto;
+			display: grid;
+			grid-template-columns: 2fr 2fr 2fr;
+		}
+			.ft1{
+				border: 2px solid yellow;
+				height: 500px;
+			}
+			.ft2{
+				border: 2px solid coral;
+				height: 500px;
+			}
+			.ft3{
+				border: 2px solid royalblue;
+				height: 500px;
+			}
+
+
+/*<!----------------------------------- footer End ----------------------------------->*/
