@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{margin: 0px; padding: 0px ;}
+		.main{
+			display: grid;
+			grid-template-columns: 7fr 5fr ;
+		}
+			.logo{
+				background: royalblue;
+			}
+				.logo img{
+					margin: 15px 0 0 20px;
+				}
+			.uli{
+				background: royalblue;
+				display: flex;
+			}
+				.uli .ulmain{
+					display: grid;
+					grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+				}
+				.uli .menu{
+					display: block;
+					height: 50px;
+					text-align: center;
+					line-height: 50px;
+					width: 100px;
+				}
+					.menu a{
+						text-decoration: none;
+						color: #fff;
+					}
+
+				.x{
+					display: none;
+					text-align: center;
+					transition: .5s;
+					visibility: hidden;
+					width: 80px;
+				}
+					.x li{
+						display: block;
+						text-align: left;
+					}
+				.servi:hover .x{
+					display: block;
+					visibility: visible;
+				}
+				.servi:hover{
+					background:darkblue;
+				}
+					.slide1{
+						height: 30px;
+						width: 100px;
+						text-align: center;
+						line-height: 30px;
+						background:royalblue;
+						border-bottom: 1px solid #fff;
+					}
+			.btn{
+				width: 60px;
+				height: 30px;
+				margin-top: 11px;
+				margin-left: 20px;
+			}
+			#more{
+				position: relative;
+			}
+			.moreul{
+					display: none;
+					text-align: center;
+					transition: .5s;
+					visibility: hidden;
+					background: royalblue;
+					width: 100px;
+					position: absolute;
+					top: 0;
+					left: 100px;
+				}
+			
+			.more li{
+						display: block;
+						text-align: left;
+					}
+				#more:hover .moreul{
+					display: block;
+					visibility: visible;
+				}
+				#more:hover{
+					background:darkblue;
+				}
+			.moreside{
+				border-bottom: 1px solid #fff;
+				text-align: left;
+				padding-left: 5px;
+			}
+
+
+			
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="logo">
+			<img src="" alt="no image" >
+		</div>
+		<div class="uli">
+			<div class="ulmain">
+				<div class="menu"><a href="">Home</a></div>
+				<div class="menu"><a href="">About</a></div>
+
+				<div class="menu servi"><a href="">Services</a>
+					<div class="x">
+
+							<div class="slide1"><a href="">Web Design</a></div>
+							<div class="slide1"><a href="">Marketing</a></div>
+							<div class="slide1"><a href="">Wordprees</a></div>
+							<div class="slide1" id="more"><a href="">More</a>
+								<div class="moreul">
+									<div class="moreside"><a href="">HTML</a></div>
+									<div class="moreside"><a href="">CSS</a></div>
+									<div class="moreside"><a href="">JavaScript</a></div>
+									<div class="moreside"><a href="">jQuery</a></div> 
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="menu"><a href="">Blogs</a></div>
+				<div class="menu"><a href="">Contant</a></div>
+			</div>
+			<button class="btn">Login</button>
+		</div>
+		
+	</div>
+</body>
+</html>
