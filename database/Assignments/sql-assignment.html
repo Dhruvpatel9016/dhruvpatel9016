@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		img{
+			width: 500px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center"style="text-decoration: underline; font-family: sans-serif;">SQL- Assignments</h1>
+<table border="1" align="center">
+	<tr>
+	<th>No.</th>
+	<th>Question</th>
+	<th>Answer-Query</th>
+	<th>output</th>
+    </tr>
+    <tr>
+    <td>01</td>
+    <td><b>Select unique job from emp table</b></td>
+    <td>SELECT Job FROM emp</td>
+    <td><img src="img/1.jpg"></td>
+     </tr>
+      <tr>
+    <td>02</td>
+    <td><b>List the details of the emps in asc order of the Dptnos and desc of Jobs?
+    </b></td>
+    <td>select * from emp order by deptno asc,job desc;</td>
+    <td><img src="img/2.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td>03</td>
+    <td><b>Display all the unique job groups in the descending order?
+</b></td>
+    <td>SELECT DISTINCT Job FROM emp ORDER BY Job DESC;</td>
+    <td><img src="img/3.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td>04</td>
+    <td><b> List the emps who joined before 1981.
+</b></td>
+    <td>SELECT * FROM emp WHERE Hiredate<('1981-01-01');
+</td>
+    <td><img src="img/4.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+     <tr>
+    <td>05</td>
+    <td><b>List the Empno, Ename, Sal, Daily sal of all emps in the asc order of Annsal.
+</b></td>
+    <td>SELECT Empno,
+       ename,
+       sal Monthly_sal,
+       sal/30 Daily_Sal,
+       12*sal Anual_Sal
+FROM emp
+ORDER BY Anual_Sal ASC;</td>
+    <td><img src="img/5.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+ <tr>
+    <td>06</td>
+    <td><b>List the Empno, Ename, Sal, Exp of all emps working for Mgr 7369.
+</b></td>
+    <td>select empno,ename,sal,exp from emp where mgr = 7369;</td>
+    <td></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td>07</td>
+    <td><b> Display all the details of the emps whose Comm. Is more than their Sal.
+</b></td>
+    <td>SELECT * FROM emp WHERE Comm>(Sal);</td>
+    <td><img src="img/7.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>08</td>
+    <td><b>List the emps who are either ‘CLERK’ or ‘ANALYST’ in the Desc order.
+</b></td>
+    <td>SELECT *
+FROM emp
+WHERE Job='CLERK'
+  OR Job='ANALYST'
+ORDER BY job DESC;</td>
+    <td><img src="img/8.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>09</td>
+    <td><b> List the emps Who Annual sal ranging from 22000 and 45000.
+</b></td>
+    <td>SELECT *
+FROM emp
+WHERE 12*sal BETWEEN 22000 AND 45000;</td>
+    <td><img src="img/9.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>10</td>
+    <td><b>List the Enames those are starting with ‘S’ and with five characters.
+</b></td>
+    <td>SELECT Ename FROM emp WHERE length(Ename)=5 and Ename like 'S%n';</td>
+    <td></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>011</td>
+    <td><b>List the emps whose Empno not starting with digit78.
+</b></td>
+    <td>SELECT * FROM emp WHERE Empno NOT LIKE '78%';</td>
+    <td><img src="img/11.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>012</td>
+    <td><b>List all the Clerks of Deptno 20.
+</b></td>
+    <td>SELECT Empno
+FROM emp
+WHERE job = 'CLERK' AND deptno = 20;</td>
+    <td><img src="img/12.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>013</td>
+    <td><b>List the Emps who are senior to their own MGRS.
+1</b></td>
+    <td>select * from emp A where hiredate <
+ (select hiredate from emp B where b.Empno = A.Mgr)</td>
+    <td><img src="img/13.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+     <tr>
+    <td>014</td>
+    <td><b>. List the Emps of Deptno 20 whose Jobs are same as Deptno10.
+</b></td>
+    <td>select * from emp where Deptno=20 and job in ( select distinct job from emp where Deptno=10);
+</td>
+    <td><img src="img/14.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td>015</td>
+    <td><b>List the Emps whose Sal is same as FORD or SMITH in desc order of Sal.
+</b></td>
+    <td> Select * from emp where sal in (select sal from emp where ( Ename = 'SMITH' or Ename = 'FORD' )) order by Sal desc; </td>
+    <td><img src="img/15.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td>016</td>
+    <td><b>List the emps whose jobs same as SMITH or ALLEN.
+</b></td>
+    <td>Select * from emp where job in(select distinct job from emp where Ename in('ALLEN','SMITH')) and Ename not in ('ALLEN','SMITH')</td>
+    <td><img src="img/16.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td>017</td>
+    <td>Any jobs of deptno 10 those that are not found in deptno 20.
+</td>
+    <td></td>
+    <td></td>
+   
+     </tr>
+
+      <tr>
+    <td>018</td>
+    <td><b>Find the highest sal of EMP table.
+</b></td>
+    <td>Select Max(sal) from emp;</td>
+    <td><img src="img/18.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+ <tr>
+    <td>019</td>
+    <td><b>Find details of highest paid employee.
+
+</b></td>
+    <td>Select * from emp where sal = (select Max(sal) from emp);
+    <td><img src="img/19.jpg"></td>
+</td>
+    
+     </tr>
+    <tr>
+    <td><b>020</b></td>
+    <td><b>. Find the total sal given to the MGR.
+</b></td>
+    <td>SELECT SUM(sal) AS total_salary_given_to_mgr FROM emp;</td>
+    <td><img src="img/20.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td><b>021</b></td>
+    <td><b>List the emps whose names contains ‘A’.
+</b></td>
+    <td>SELECT Ename
+FROM emp
+WHERE Ename LIKE '%A%';</td>
+    <td><img src="img/21.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td><b>022</b></td>
+    <td><b> Find all the emps who earn the minimum Salary for each job wise in ascending order.
+</b></td>
+    <td>SELECT *
+FROM emp
+WHERE sal IN
+    (SELECT min(sal)
+     FROM emp
+     GROUP BY job)
+ORDER BY sal ASC;</td>
+    <td><img src="img/22.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td><b>023</b></td>
+    <td><b> List the emps whose sal greater than blakes sal.
+</b></td>
+    <td>SELECT *
+FROM emp
+WHERE sal>
+    (SELECT sal
+     FROM emp
+     WHERE Ename ='blake');</td>
+    <td><img src="img/23.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+
+      <tr>
+    <td><b>024</b></td>
+    <td>Create a procedure with dno as input parameter to fetch ename and dname.
+    <td></td>
+    <td></td>
+</td>
+   
+     </tr>
+
+      <tr>
+    <td><b>025</b></td>
+    <td><b>Add column Pin with bigint datatype in table student.
+</b></td>
+    <td>ALTER TABLE student ADD Pin bigint AFTER State;
+</td>
+    <td><img src="img/25.jpg"></td>
+    <!-- <td><b></b></td> -->
+     </tr>
+      <tr>
+    <td><b>026</b></td>
+    <td><b>Modify the student table to change the sname length from 14 to 40.
+</b></td>
+    <td>ALTER TABLE student CHANGE Sname Sname VARCHAR(40) NOT null;</td>
+    <td><img src="img/26.jpg"></td>
+   	 <!-- <td><b></b></td> -->
+     </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 style=" margin: auto; text-align: center;">🙏🙏 COMLETED 🙏🙏</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

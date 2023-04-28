@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		img{
+			width: 400px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+    <h1 align="center">ASSESSMENT OF SQL</h1>
+<table border="1">
+    <tr>
+        <td colspan="3" align="center">Table</td>
+    </tr>
+    <tr>
+        <td colspan="3" align="center"><img src="images/table.jpg"></td>
+    </tr>
+	<tr>
+		<th>Questions</th>
+		<th>Query</th>
+		<th>Output</th>
+	</tr>
+    <tr>
+      <th>Write sql query to find the items whose prices are higher than or equal 250rs. 
+Order the result by product price in descending, then product name in 
+ascending. Return pro_name and pro_price</th>
+      <td>SELECT pro_name, pro_price 
+     FROM item_mast
+    WHERE pro_price >= 250
+ ORDER BY pro_price DESC, pro_name;</td>
+      <th><img src="images/1.jpg"></th>
+    </tr>
+    <tr>
+    	<th>Write a sql query to find the cheapest item. Return pro_name and pro_price.
+        </th>
+        <td>SELECT pro_name, pro_price
+   FROM item_mast
+   WHERE pro_price = 
+    (SELECT MIN(pro_price) FROM item_mast);</td>
+    <td><img src="images/2.jpg"></td>
+    </tr>
+    <tr>
+    	<th>Write the sql query to calculate the average price of the items for each 
+company. Return average price and company code.
+</th>
+    	<td>SELECT AVG(pro_price), pro_com
+    FROM item_mast
+GROUP BY pro_com;</td>
+<td><img src="images/3.jpg"></td>
+
+    </tr>
+    <tr>
+    	<th>Write the sql query to find the average total for all the product mention in the 
+table 
+</th>
+<td>SELECT AVG(pro_price) AS "Average Price" 
+   FROM item_mast;</td>
+   <td><img src="images/4.jpg"></td>
+    </tr>
+
+</table>
+  <br><br>
+    <h1 align="center">Completed </h1>
+</body>
+</html>
