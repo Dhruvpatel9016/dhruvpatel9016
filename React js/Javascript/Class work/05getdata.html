@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="one">
+    <input type="text" name="" id="two">
+    <button onclick="test()">Click</button>
+    <h1 id="demo"></h1>
+    
+</body>
+</html>
+<script>
+    // document.getElementById
+    // document.getElementsByClassName
+    // document.getElementsByTagName
+    // document.querySelector
+    // document.querySelectorAll
+
+    function test()
+    {
+        let first = document.getElementById('one').value;
+        console.log(first);
+        let second = document.getElementById('two').value;
+        let sum = parseInt(first)+parseInt(second);
+        console.log(second);
+        document.getElementById('demo').innerHTML=sum;
+
+    }
+</script>
