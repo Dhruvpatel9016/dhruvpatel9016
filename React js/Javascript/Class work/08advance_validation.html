@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return submitdata()" method="post">
+        <table border="1" align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" id="name" onblur="Validate(this,'nameError')" onkeydown="namevalid(this,'NError')"> 
+                <span id="nameError"></span>
+                <span id="NError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" id="email"onblur="Validate(this,'emailError')" onkeydown="emailvalid(this,'nError')"> 
+                    <span id="emailError"></span>
+                    <span id="nError"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pwd" id="pwd" onblur="Validate(this,'perror')" onkeydown="pwdvalid(this,'pwderror')"> 
+                    <span id="perror"></span>
+                    <span id="pwderror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" name="Mobile" id="Mobile" onblur="Validate(this,'merror')" onkeydown="mobilevalid(this,'mobilerror')"> 
+                    <span id="merror"></span>
+                    <span id="mobilerror"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<script src="validate.js"></script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // prototype : the prototype objact is spacial type of enumerable Object to which additional properties can be attached to it which will
+    // be shared across all the instance of it's constructor function 
+
+    function Customer(name,age) 
+    {
+        this.name = name        
+        this.age = age        
+    }
+    const data = new Customer("angella",24)
+    console.log(data);
+    console.log(data.name,data.age);
+
+    Customer.prototype.profession="doctor"
+    Customer.prototype.fname="christan"
+    console.log(data.profession);
+    console.log(data.fname);
+
+</script>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    // constroctor : a constroctor is a special function that creates and initilizes an object instance of a class 
+
+    function Test(name,age)
+    {
+        this.name = name
+        this.age = age
+    }
+    // console.log(Test("john",25)); //not valid - undifined
+    const data = new Test("john",25)
+    console.log(data);
+    console.log(data.name);
+    console.log(data.age);
+
+    function Demo(fname,lname)
+    {
+        this.fname = "john"        
+        this.lname = "doe"        
+    }
+    const foo = new Demo()
+    console.log(foo);
+    console.log(foo.fname);
+    console.log(foo.lname);
+</script>

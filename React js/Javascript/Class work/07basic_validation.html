@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return submitdata()" method="post">
+        <table border="1" align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" id="name"> </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" id="email"> </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pwd" id="pwd"> </td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td><input type="text" name="Mobile" id="Mobile"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<script>
+    function submitdata()
+    {
+        let name = document.getElementById('name');
+        if(name.value == "")
+        {
+            alert("please enter name!");
+            document.getElementById('name').focus();
+            return false;
+        }
+        let email = document.getElementById('email');
+        if(name.value == "")
+        {
+            alert("please enter email!");
+            document.getElementById('email').focus();
+            return false;
+        }
+        let pwd = document.getElementById('pwd');
+        if(name.value == "")
+        {
+            alert("please enter password!");
+            document.getElementById('pwd').focus();
+            return false;
+        }
+        let Mobile = document.getElementById('Mobile');
+        if(name.value == "")
+        {
+            alert("please enter Mobile!");
+            document.getElementById('Mobile').focus();
+            return false;
+        }
+    }
+</script>
