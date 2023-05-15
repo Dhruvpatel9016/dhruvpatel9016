@@ -9,4 +9,13 @@ function RegAPI()
 
     const data = {username:uname,email:email,password:pwd,mobile:mobile}
     console.log(data);
+
+    fetch('http://localhost/api/registration_api',{method:'POST',
+    headers:{
+        'Content=Type':'application/json',
+    },body:JSON.stringify({allData:data})
+}).then((res)=>res.json())
+.then((Response)=>{
+    console.log(Response);
+})
 }
