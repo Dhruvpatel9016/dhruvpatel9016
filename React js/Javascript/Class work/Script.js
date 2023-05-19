@@ -1,3 +1,30 @@
+// login
+let logindata = document.querySelector('#loginbtn');
+
+logindata.addEventListener('click',function(){
+    let name = document.getElementById('uname').value
+    let pass = document.getElementById('pwd').value
+    console.log(name,pass);
+
+    fetch('http://localhost/api/api/login_get_method?username='+name+'&password='+pass)
+    .then((res)=>res.json())
+    .then((RESP)=>{
+        console.log(RESP);
+        if(RESP.Code == 1)
+        {
+            alert('Login Success')
+        }
+        else{
+            alert('Invalid uname & password!')
+        }
+    })
+})
+
+
+
+
+
+
 function RegAPI()
 {
     let uname = document.getElementById('uname').value 
@@ -10,9 +37,9 @@ function RegAPI()
     const data = {username:uname,email:email,password:pwd,mobile:mobile}
     console.log(data);
 
-    fetch('http://localhost/api/registration_api',{method:'POST',
+    fetch('http://localhost/api/api/registration_api',{method:'POST',
     headers:{
-        'Content=Type':'application/json',
+        'Content-Type':'application/json',
     },body:JSON.stringify({allData:data})
 }).then((res)=>res.json())
 .then((Response)=>{
