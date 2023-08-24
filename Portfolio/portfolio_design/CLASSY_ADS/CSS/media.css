@@ -1,0 +1,586 @@
+@media(max-width:1160px)
+{
+    .mainfath{
+        height: 900px;background-size: contain;
+    }
+    /*------navbar start-----*/
+    .nav{
+        width: 70%;display: grid;grid-template-columns: 1fr 3fr;
+    }
+    .navi{display: none;}
+    .btn{display: none;}
+    /*------navbar End-----*/
+    .largcl{
+        margin-top: 100px;font-size: 35px;font-weight: 400;        
+    }
+    .youcan{
+        font-size: 16px;font-weight: 300;
+    }
+    .locsearch{
+        height: auto;width: 70%;grid-template-columns: 1fr;
+    }
+    .locsearch .whatare input{
+        width: 90%;height: 50px;margin-left: 40px;
+    }    
+    .locsearch .location input{
+        width: 90%;margin-left: 40px;height: 50px;
+    }    
+    .locsearch .categori input{
+        width:  90%;margin-left: 40px;height: 50px;
+    }    
+    .locsearch .srchbtn button{
+        width:  90%;height: 50px; margin-left: 40px;margin-bottom: 20px;
+    }   
+    /*<!------Hover div start----->*/
+    .bacmain{
+        width: 70%; top: 850px; grid-template-columns: 2fr 2fr 2fr;
+    }
+    .hov1 i{margin-left: 100px;}
+    .hov1 div{margin-left: 75px;}
+    /*<!------Featured Ads Start----->*/
+    .ftrad{
+        margin: 350px 0 0 180px;
+    }
+    .ftradd{
+        grid-template-columns: 2fr 2fr;gap: 20px;width: 70%;padding-left: 60px;
+    }
+    .lgsing{
+        margin: 20px 0 0 -10px;
+    }
+    /* <!-- popular product start --> */
+			/* <!-- populer product-1 --> */
+            .popu1{
+				gap: 15px;width: 70%;
+			}
+			.blurimg1{
+				height: 230px;border-radius: 7px;				
+			}
+			.blurimg1 img 
+			{
+				border-radius: 7px;
+			}			
+			.popubox1{
+				height: 320px;padding: 10px;border-radius: 7px;
+			}
+			.popubox1 .popcar{
+				height: 25px;margin-top: 130px;line-height: 25px;
+			}
+			.popubox1 h2{
+				font-weight: 200;font-size: 16px;margin-top: 2px;
+			}
+			.popubox1 .popi{
+				display: grid;grid-template-columns: 8fr 1fr;
+			}
+			.popubox1 .popi h4{
+				margin-top: 7px;
+			}
+            /*<!-- populer product-2 -->*/
+            .popu2{
+				gap: 20px;width: 70%;margin-top: 20px;
+			}
+			.popu2blurimg1{
+				height: 320px;border-radius: 7px;
+			}
+			.popu2blurimg1 img 
+			{
+				border-radius: 7px;
+			}
+			.popu2box1{
+				padding: 10px;border-radius: 7px;
+			}
+			.popu2box1 .pop2car{
+				margin-top: 200px;line-height: 25px;
+			}
+			.popu2box1 h2{
+				font-weight: 400;font-size: 16px;margin-top: 7px;
+			}
+			.popu2box1 .popi2 h4{
+				margin-top: 7px;
+			}
+
+            .trato{
+                width: 70%;
+            }
+            .trantoh1{
+                margin-top: 170px;
+                font-size: 28px;
+            }
+    /* <!-- Trending Today start --> */
+		    /* <!--Trending Today 1 --> */
+            .trtu1{
+				gap: 20px;width: 70%;margin-top: 50px;
+			}
+			.to1{
+				height: auto;grid-template-columns: 1fr 1fr;
+			}
+            .to1 .to1text{
+				padding: 10px;
+			}
+			.to1 .to1text .frhead{
+				grid-template-columns: 2fr 1fr;
+			}
+			.to1 .to1text .frhead div{
+				width: 100px;font-size: 16px;
+			}
+			.to1text h2{
+				font-size: 16px;
+			}
+			.to1 .to1text h3{
+				font-size: 14px;font-weight: 300;margin-top: 6px;
+			}
+			.to1 .to1text .stardoc{
+				display: flex;text-align: center;margin-top: 20px;
+			}
+			.to1 .to1text .stardoc h4{
+				margin-left: 10px;
+			}
+			.to1 .to1text .stardoc i{
+				margin-left: 5px;
+			}
+	/*	<!-- Testimonials start -->*/
+	.textinfo .tinfo2{
+		width: 70%;
+	}
+	.tinfo2 .fa-chevron-right{
+		margin-left: 50px;
+	}
+	/*<!-- Our Blog start -->*/
+	.ourblogs{
+		width: 70%;
+	}
+	.blog1{
+		width: 360px;margin-left: 10px;
+	}
+	.blogtext h1{
+		margin-top: 20px;font-size: 18px;font-weight: 350;
+	}
+	.blogtext ul{
+		display: flex;margin-top: 7px;
+	}
+	.blogtext li{
+		margin-left: 0px;font-size: 14px;
+	}
+	.blogtext p{
+		font-size: 15px;line-height: 22px;
+	}
+	/*<!-- Newsletter footer start -->*/
+	.Newsletter{
+		padding: 50px 100px 50px 100px;
+	}
+	.Newsletter2{
+		width: 50%;display: flex;
+	}
+	.Newsletter2 input{
+		width: 380px;
+	}
+
+	/*<!-- Footer start -->*/
+	.last .lasttext{
+		width: 70%;
+	}
+	.lasttext .lastabout{
+		width: 350px;
+	}
+	.lasttext .lastabout h1{
+		font-size: 18px;
+	}
+	.lasttext .lastabout p{
+		font-size: 16px;
+	}	
+	.lasttext .lastNavigations{
+		width: 170px;
+	}
+	.lasttext .lastNavigations h1{
+		font-size: 18px;
+	}
+	.lasttext .lastNavigations ul{	
+		margin-top: 20px;
+	}
+	.lasttext .lastNavigations li{
+		font-size: 16px;font-weight: 300;line-height: 30px;
+	}	
+	.lasttext .lastfollow{
+		width: 200px;
+	}
+	.lasttext .lastfollow h1{
+		font-size: 18px;
+	}
+	.lasttext .lastfollow i{
+		font-size: 16px;
+	}	
+	.lasttext .lastsearch{
+		width: 250px;display: flex;
+	}
+	.lasttext .lastsearch input{
+		height: 40px;width: 170px;font-size: 17px;
+	}
+	.lasttext .lastsearch button{
+		height: 40px;width: 60px;font-size: 16px;
+	}
+	.line{
+		width: 70%;
+	}
+	/*<!-- Footer End -->*/
+	.Copyrightline{
+		width: 70%;
+	}
+	.Copyrightline h1{
+		font-size: 16px;
+	}			
+    
+}
+
+
+
+@media(max-width:960px)
+{
+    .mainfath{
+        height: 700px;background-size: contain;
+    }
+	/*<!------Hover div start----->*/
+    .bacmain{
+		width: 90%;top: 660px;left:50px;grid-template-columns: 2fr 2fr 2fr ;grid-template-rows: 180px 180px 180px ;
+	}
+	/*	<!-- popular product start -->*/
+	
+		/*<!-- populer product-1 -->*/
+		.popu1{
+			display: grid;grid-template-columns: 2fr 2fr;width: 90%;
+		}
+		.blurimg1{
+			height: 320px;			
+		}
+		.popubox1{
+			height: 320px;
+		}
+		.popubox1 .popcar{
+			margin-top: 200px;
+		}
+		/*<!-- populer product-2 -->*/
+		.popu2{
+			width: 90%;
+		}
+	
+/*<!-- Trending Today start -->*/
+
+		/*<!--Trending Today 1 -->*/
+		.trtu1{
+			width: 90%;grid-template-columns: 2fr;
+		}
+		.to1{
+			height: 200px;grid-template-columns: 2fr 3.2fr;
+		}
+		.to1 .to1text{
+			padding: 20px;
+		}
+
+	/*<!-- Our Blog start -->*/
+	.ourblogs{
+		width: 90%;display: grid;grid-template-columns: 2fr 2fr;gap: 30px;
+	}
+	.blogtext li{
+		margin-left: 30px;
+	}
+
+}
+
+
+
+@media(max-width:760px)
+{
+	.mainfath{
+        height: 700px;background-size: contain;
+    }
+	/*<!------Hover div start----->*/
+    .bacmain{
+		width: 90%;top: 650px;left:115px;grid-template-columns: 2fr 2fr ;grid-template-rows: 180px 180px ;
+	}
+
+	.ftrad{
+		margin-top: 550px;margin-left: 135px;
+	}
+	/*<!------Featured Ads Start----->*/
+	.ftradd{
+		display: grid;grid-template-columns: 2fr 2fr;padding: 15px;width: 70%;
+	}
+	
+/*	<!-- popular product start -->*/
+	
+		/*<!-- populer product-1 -->*/
+		.popu1{
+			grid-template-columns: 1fr;gap: 20px;width: 70%;
+		}
+		.blurimg1{
+			height: 320px;				
+		}		
+		.popubox1{
+			height: 320px;padding: 20px;
+		}
+		.popubox1 .popcar{
+			margin-top: 180px;line-height: 25px;
+		}
+		/*<!-- populer product-2 -->*/
+		.popu2{
+			grid-template-columns: 1fr;height: 320px;gap: 20px;width: 70%;margin-top: 20px;
+		}
+		.popu2blurimg1{
+			height: 320px;
+		}
+/*	<!-- popular product end -->*/
+		.trato{
+			width: 90%;
+		}
+		.trantoh1{
+			margin-top: 400px;
+		}	
+/*<!-- Trending Today start -->*/
+		/*<!--Trending Today 1 -->*/
+		.trtu1{
+			gap: 20px;width: 90%;margin: 0px auto;margin-top: 20px;grid-template-columns: 1fr;
+		}
+/*	<!-- Trending Today end -->*/
+/*	<!-- Testimonials start -->*/
+
+		.textinfo .tinfo2{
+			height: auto;width: 90%;
+		}
+		.tinfo2 .fa-chevron-left{
+			margin-top: 200px;
+		}
+		.tinfo2 p{
+			font-size: 22px;
+		}
+		.tinfo2 .fa-chevron-right{
+			margin-left: 0px;margin-top: 200px;
+		}
+/*	<!-- Testimonials end -->*/
+/*<!-- Our Blog start -->*/
+		.ourblogs{
+			width: 90%;display: grid;grid-template-columns: 1fr;
+		}
+		.blogimg{
+			height: 300px;
+		}
+		.blog1{
+			width: 90%;margin-top: 30px;margin-left: 0px;
+		}
+		.blogtext li{
+			margin-left: 35px;
+		}
+/*<!-- Our Blog end -->*/
+/*<!-- Footer start -->*/
+		.last{
+			height: 1000px;
+		}
+		.line{
+			width: 100%;margin-top: 300px;
+		}
+		.last .lasttext{
+			width: 100%;
+		}
+}
+
+
+
+
+@media(max-width:460px)
+{
+    .mainfath{
+        height: 440px;background-size: contain;
+    }    
+    /*------navbar start-----*/
+    .nav{
+        width: 100%;display: grid;grid-template-columns: 1fr 2fr;margin: 0px 0px;
+    }
+    .navi{display: none;}
+    .btn{display: none;}
+    /*------navbar End-----*/
+    .largcl{
+        margin-top: 20px;font-size: 28px;font-weight: 400;        
+    }
+    .youcan{
+        font-size: 14px;font-weight: 300;
+    }
+    .locsearch{
+        height: auto;width: 100%;grid-template-columns: 1fr;
+    }
+    .locsearch .whatare input{
+        width: 100%;height: 45px;margin-left: 20px;
+    }    
+    .locsearch .location input{
+        width: 100%;margin-left: 20px;height: 45px;
+    }    
+    .locsearch .categori input{
+        width:  100%;margin-left: 20px;height: 45px;
+    }    
+    .locsearch .srchbtn button{
+        width:  100%;height: 45px; margin-left: 20px;margin-bottom: 20px;
+    }  
+    /*<!------Hover div start----->*/
+    .bacmain{
+        width: 100%; top: 500px;left:0px; grid-template-columns: 1fr;margin: 0px 0px 0px 25px;
+	}
+    .hov1 i{margin-left: 180px;}
+    .hov1 div{margin-left: 155px;}
+    /*<!------Featured Ads Start----->*/
+    .ftrad{
+        margin: 1350px 0 20px 15px;
+    }
+	.ftradd{
+		grid-template-columns: 1fr;padding: 0px;width: 100%;
+	}	
+	.box1{
+		height: 400px;width: 100%;
+	}
+	.box1 img{
+		height: 220px;
+	}
+	.box1 .texticon{
+		margin-top: 0px;
+	}
+	.box1 .texticon div{
+		line-height: 28px;
+	}	
+	.box1 .texticon .fa-heart{
+		margin-left: 210px;margin-top: 0px;
+	}
+/*<!------Featured Ads End----->*/
+
+/*	<!-- popular product start -->*/
+	
+		/*<!-- populer product-1 -->*/
+		.popu1{
+			grid-template-columns: 1fr;gap: 20px;width: 100%;
+		}
+		.blurimg1{
+			height: 320px;				
+		}		
+		.popubox1{
+			height: 320px;padding: 20px;
+		}
+		.popubox1 .popcar{
+			margin-top: 180px;line-height: 25px;
+		}
+		/*<!-- populer product-2 -->*/
+		.popu2{
+			grid-template-columns: 1fr;height: 320px;gap: 20px;width: 100%;margin-top: 20px;
+		}
+		.popu2blurimg1{
+			height: 320px;
+		}
+/*	<!-- popular product end -->*/
+.trato{
+	width: 100%;
+}
+.trantoh1{
+	margin-top: 400px;
+}	
+/*<!-- Trending Today start -->*/
+		/*<!--Trending Today 1 -->*/
+		.trtu1{
+			gap: 20px;width: 100%;margin: 0px auto;margin-top: 20px;grid-template-columns: 1fr;
+		}
+/*	<!-- Trending Today end -->*/
+
+/*	<!-- Testimonials start -->*/
+
+.textinfo .tinfo2{
+	height: auto;width: 100%;
+}
+.tinfo2 .fa-chevron-left{
+	margin-top: 200px;
+}
+.tinfo2 p{
+	font-size: 22px;
+}
+.tinfo2 .fa-chevron-right{
+	margin-left: 0px;margin-top: 200px;
+}
+/*	<!-- Testimonials end -->*/
+
+/*<!-- Our Blog start -->*/
+.ourblogs{
+	width: 100%;display: grid;grid-template-columns: 1fr;
+}
+.blog1{
+	width: 100%;margin-top: 30px;margin-left: 0px;
+}
+.blogtext li{
+	margin-left: 35px;
+}
+/*<!-- Our Blog end -->*/
+
+/*<!-- Newsletter footer start -->*/
+.Newsletter{
+	display: flex;flex-wrap: wrap;padding: 50px 10px 50px 10px;
+}
+.Newsletter1{
+	width: 100%;
+}
+.Newsletter2{
+	width: 100%;
+}
+.Newsletter2 button{
+	width: 150px;
+}
+/*<!-- Newsletter footer end -->*/
+
+/*<!-- Footer start -->*/
+.last{
+	height: 1000px;padding-top: 150px;
+}
+.last .lasttext{
+	display: flex;flex-wrap: wrap;height: 300px;width: 100%;margin: 0 auto;
+}
+.lasttext .lastabout{
+	width: 100%;
+}
+.lasttext .lastabout h1{
+	font-size: 19px;font-weight: 300;margin-top: 20px;
+}
+.lasttext .lastabout p{
+	font-size: 17px;font-weight: 300;margin-top: 20px;line-height: 30px;
+}
+
+.lasttext .lastNavigations{
+	width: 100%;
+}
+.lasttext .lastNavigations h1{
+	font-size: 19px;font-weight: 300;margin-top: 20px;
+}
+.lasttext .lastNavigations ul{	
+	margin-top: 20px;
+}
+.lasttext .lastNavigations li{
+	font-size: 17px;font-weight: 300;display: block;line-height: 30px;
+}
+
+.lasttext .lastfollow{
+	width: 100%;
+}
+.lasttext .lastfollow h1{
+	font-size: 19px;font-weight: 300;margin-top: 20px;
+}
+.lasttext .lastfollow i{
+	font-size: 17px;font-weight: 350;margin-right: 30px;margin-top: 25px;
+}
+
+.lasttext .lastsearch{
+	width: 100%;
+}
+.lasttext .lastsearch input{
+	height: 45px;width: 330px;margin-top: 25px;
+}
+.lasttext .lastsearch button{
+	height: 45px;width: 100px; margin-top: 25px;
+}
+.line{
+	width: 100%;margin-top: 280px;
+}
+/*<!-- Footer End -->*/
+.Copyrightline{
+	width: 100%;margin-top: 30px;
+}
+
+
+}

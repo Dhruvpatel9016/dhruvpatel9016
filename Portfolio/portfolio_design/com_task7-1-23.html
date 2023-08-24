@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		*{box-sizing: border-box;margin: 0;padding: 0}
+		body{
+/*			background: #000;*/
+		}
+		.main{
+			height: 700px;
+			width: 70%;
+			border: 0.5px solid grey;
+			margin: 20px auto;
+			background: rgba(50, 50, 50, .6);
+		}
+		.main .submain{
+			height: 600px;
+			width: 90%;
+			background: #fff;
+			margin: 45px auto;
+			display: flex;
+			box-shadow: 0px 0px 50px 2px black;
+		}
+		.main .submain .blurimg{
+			height: 100%;
+			width: 25%;
+			background: url("https://t3.ftcdn.net/jpg/05/01/61/60/360_F_501616007_FqK2bJPMUif4ayGHlYpq8rkLqS3OQmO6.jpg");
+			background-size: cover;
+			position: relative;
+		}
+		.main .submain .content{
+			height: 100%;
+			width: 75%;
+			background: #fff;
+		}
+		.contentmain{
+			height: 500px;
+/*			width: 80%;*/
+			padding: 30px;
+			margin-left: 200px;
+			margin-top: 40px;
+			margin-right: 30px;
+		}
+		.contentmain h1{
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-family: Lora, serif;
+  			font-size: 40px;
+		}
+		.contentmain .frsecpr{
+			margin-top: 20px;
+		}
+		.contentmain .frpr{
+			font-family: Lora, serif;
+  			font-size: 18px;
+  			color: coral;
+		}
+		.contentmain .secpr{
+			font-size: 40px;
+			font-weight: bolder;
+			margin-left: 20px;
+		}
+		.blurimg .blrmain{
+			height: 420px;
+			width: 370px;
+			position: absolute;
+			top: 110px;
+			left: 50px;
+			z-index: 1;
+		}
+		.blrmain .blrfr{
+			height: 60%;
+			width: 100%;
+		}
+		.blrmain .blrfr img{
+			border-radius: 10px;
+		}
+		.blrmain .blrsc{
+			height: 30%;
+			width: 100%;
+			margin-top: 10px;
+			display: flex;
+		}
+		.blrmain .blrsc img{
+			height: 70%;
+			margin: 0px 2px;
+			width: 33%;
+			border-radius: 10px;
+		}
+		.colcir{
+			display: flex;
+			position: relative;
+			height: 62px;
+
+		}
+		.colcir h1{
+			font-size: 20px;
+			margin-top: 33px;
+		}
+		.colcir .cir1{
+			background:  radial-gradient(white 40%,grey,black);
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 30px;
+			left: 150px;
+			border-radius: 50%;
+		}
+		.colcir .cir2{
+			background:  radial-gradient(white 40%,yellow,white,green);
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 30px;
+			left: 190px;
+			border-radius: 50%;
+		}
+		.colcir .cir3{
+			background:  radial-gradient(white 40%,coral,white 10%,orange);
+			height: 30px;
+			width: 30px;
+			position: absolute;
+			top: 30px;
+			left: 230px;
+			border-radius: 50%;
+		}
+		.amount{
+			display: flex;
+		}
+		.amount h1{
+			font-size: 20px;
+			margin-top: 9px;
+			padding: 0;
+		}
+		.amonum{
+			display: flex;
+			margin-left: 90px;
+		}
+		.amonum i{
+			margin-top: 15px;
+			margin-bottom: 0;
+			color: coral;
+		}
+		.amonum h1{
+			font-size: 35px;
+			margin: 0px 20px;
+			font-weight: 300;
+		}
+		.total{
+			margin-top: 20px;
+		}
+		.total h2{
+			text-align: right;
+			font-size: 16px;
+		}
+		.total h1{
+			text-align: right;
+			font-size: 30px;
+			font-weight: bolder;
+			margin: 0;
+		}
+		.btn{
+			margin-top: 20px;
+			display: flex;
+		}
+		.btn .add{
+			width: 50%;
+			border-radius: 20px;
+			font-weight: bolder;
+			height: 40px;
+			padding: 10px;
+		}
+		.btn .buy{
+			width: 50%;
+			border-radius: 20px;
+			font-weight: bolder;
+			background: #000;
+			color: #fff;
+			height: 40px;
+			margin-left: 10px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main">
+
+		<div class="submain">
+			<div class="blurimg">
+				
+				<div class="blrmain">
+					<div class="blrfr">
+						<img src="https://c4.wallpaperflare.com/wallpaper/921/972/855/cactus-plants-pot-baby-groot-figure-wallpaper-preview.jpg" height="100%" width="100%">
+					</div>
+
+					<div class="blrsc">
+						<img src="https://png.pngtree.com/thumb_back/fh260/background/20210911/pngtree-potted-green-plants-flower-pot-photography-map-image_861482.jpg">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuLbKJAn-kR-FG8JUJP38VpMCU4wuncBDKK-y7va1-Y22EczHUTrco7WRtvXxulDdkYqo&usqp=CAU" height="100%" width="100%">
+						<img src="https://c0.wallpaperflare.com/preview/190/14/367/plant-windowsill-pot-succulent.jpg" height="100%" width="100%">
+					</div>
+				</div>			
+									
+			</div>
+
+			<div class="content">
+				<div class="contentmain">
+					<h1>VASE SET</h1>
+					<p>Crediting isn’t required, but linking back is greatly appreciated and allows image authors to gain exposure. You can use the following text: but linking back is greatly</p>
+					<div class="frsecpr">
+					<span class="frpr">14.98$</span><span class="secpr">9.99$</span>
+					</div>
+
+					<div class="colcir">
+						<h1>Color </h1>
+						<div class="cir1"></div>
+						<div class="cir2"></div>
+						<div class="cir3"></div>
+					</div>
+
+					<div class="amount">
+						<h1>Amount </h1>
+						<div class="amonum">
+							<i class="fa fa-chevron-left"></i>
+							<h1>4</h1>
+							<i class="fa fa-chevron-right"></i>
+						</div>
+					</div>
+
+					<div class="total">
+						<h2>Total</h2>
+						<h1>39.96$</h1>
+					</div>
+
+					<div class="btn">
+						<button class="add">ADD TO CART</button>
+						<button class="buy">BUY NOW</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+</body>
+</html>
