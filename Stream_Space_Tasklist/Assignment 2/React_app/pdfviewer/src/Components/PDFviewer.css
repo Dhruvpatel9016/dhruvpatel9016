@@ -1,0 +1,15 @@
+.pdf-container{
+    height: 900px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(50, 180, 190, 0.300);
+    box-shadow: 1px 1px 20px 1px;
+    /* border: 2px solid red; */
+}
+body{
+    background: url(/public/wall3.jpg);
+    background-size: cover;
+}
