@@ -1,0 +1,284 @@
+@media(max-width:1160px){
+    /*  <!-- <.................Home.................> --> */
+    .bacimg {height: 500px;}
+    .home1 {height: 780px;margin-bottom: 5px;}
+    .ring1 {bottom: -100px;}
+    .ring2 {bottom: -10px;}
+    .pera {width: 30%;top: 270px;}
+    .pera p {margin-top: 5px;margin-bottom: 15px;}
+    .pera {top: 200px;}
+    .graph {height: 380px;right: 120px;}
+    .butt {width: 70%;margin: 5px;}
+
+    /* <.................Feature.................> */
+    .post{height: auto;padding: 0px;}
+    .card{width: 31%;}
+    .card h3{margin-top: 10px;}    
+    .powbuild{background-size: 250px 550px;}
+    .cost img{height: 85px;}
+    .cont{padding: 5px;}
+    .powimg{padding-top: 70px;height: auto;}
+    .powimg img{height: 400px;}
+        
+    /* <.................How it work.................>  */
+    .itbut{width: 180px;}
+    .createimg img{height: 200px;}
+
+    /*  <!------------- Pricing ----------------> */
+    .pricing{padding: 0px;}
+    .simple{padding: 100px 0px 0px 0px;}
+    .titl h3{margin: 5px 80px 5px 2px;}
+    .titbut{margin-bottom: 5px;}
+
+    /* <!------------- starting graph ----------------> */
+    .start{margin-bottom: 120px;padding: 50px 20px 100px 20px;}
+    .startimg{height: 310px;}
+    .babypic{height: 200px;width: 380px;bottom: -100px;left: -90px;}
+    .tiyal h2{font-size: 36px;font-weight: 800;margin-top: 100px;}
+    .inpu textarea{padding: 0px 20px 0px 20px;}
+
+    /*   <!------------- populer blog ----------------> */
+    .popublog{padding: 0px;}
+    .product{padding: 20px 10px 10px 10px;}
+    .product img{height: 280px;}
+    .product h2{margin-top: 15px;}
+
+    /* <!------------- About Footer ----------------> */
+    .footer{padding: 100px 0px 100px 10px;}
+    .titpage h3{font-size: 20px;}
+
+}
+
+
+
+@media(max-width:770px){
+    /*   <!-- <.................Home.................> --> */
+    .logo {height: 20px;}
+    .bacimg {height: 300px;}
+    .home1 {width: 100%;height: 610px;}
+    .pera {width: 100%;top: 180px;}
+    .build {font-size: 35px;}
+    .pera p {margin-top: 15px;font-weight: 400;}
+    .graph {width: 55%;height: 250px;top: 20px;right: 10px;}
+    .butt {width: 25%;}
+    .ring1 {display: none;}
+    .ring2 {display: none;}
+    .ring3 {display: none;}
+
+    /* <.................Feature.................> */
+    .futures{height:580px;text-align: center;}
+    .post{height: auto;padding: 0px;display: block;}
+    .card{height: auto;width: 60%;margin: 15px auto;}
+    .card h3{font-size: 24px;}
+    .card p{font-size: 12px;font-weight: 400;}
+    .card a{ margin-bottom: 50px;}
+    .powbuild{display: flex;background-size: 150px 440px;}
+    .powpera{text-align: center;padding: 5px;margin-top: 100px;}
+    .powpera h2{font-size: 30px;}
+    .powpera p{font-size: 12px;font-weight: 400;}
+    .cost{display: block;}
+    .cost img{height: 55px;}
+    .cont h3{font-size: 18px;}
+    .cont p{font-size: 12px;font-weight: 400;}
+    .powimg{padding-top: 70px;height: auto;}
+    .powimg img{height: 300px;}
+            
+    /* <.................How it work.................>  */
+    .worktite h2{font-size: 30px;}
+    .itbut{font-size: 12px;}
+    .bros{display: block;text-align: center;}
+    .bros button{ margin-bottom: 15px; width: 60%;font-size: 16px;}    
+    .creatacc{margin:  50px auto;display: block;}
+    .menual{padding: 10px 5px 10px 5px; text-align: center;justify-items: center;}
+    .worklog{display: block;}
+    .worklog img{height: 50px;}
+    .workbutt{width: 100%;}
+    .menual p{font-size: 12px;font-weight: 400;}
+    .createimg img{height: 200px; width: 100%;}
+    .createimg{width: 70%;margin: 20px auto;}
+        
+    /*  <!------------- James intro slider ----------------> */
+    .james button{margin: 8px 3px 3px 3px;}
+    .james h2{font-size: 30px;}
+    .james p{font-size: 12px;}
+    .james h4{font-size: 12px;}
+
+    /*  <!------------- Pricing ----------------> */
+    .pricing{text-align: center;margin-top: 10px;display: block;padding: 50px;}
+    .basic{margin: 30px auto;width: 80%;text-align: center;padding: 20px;}
+    .upi{height: 90px;width: 70%;margin-bottom: 20px;}
+    .simple h2{font-size: 30px;margin-top: 20px;}
+    .simple p{font-size: 12px;font-weight: 400; margin-top: 15px;}
+    .titl h3{margin: 5px 220px 5px 2px;}
+
+    /* <!------------- starting graph ----------------> */
+    .start{margin-top: 30px;margin-bottom: 170px;display: block;padding: 50px 50px 110px 80px;}
+    .startimg{height: 240px;width: 60%;margin: 30px 0px 0px 150px;}
+    .babypic{height: 180px;width: 300px;bottom: -95px;left: -95px;}
+    .tiyal{width: 100%;}
+    .tiyal h2{font-size: 30px;margin-top: 0px;}
+    .tiyal p{font-size: 12px;font-weight: 400;}
+    .inpu button{font-size: 12px;margin-left: 20px;}
+
+    /*   <!------------- populer blog ----------------> */
+    .poptit h2{font-size: 30px;}
+    .poproduct{display: block;}
+    .product{width: 80%;margin: 0px auto;padding: 40px 50px 50px 50px;}
+    .product img{height: 300px;margin-bottom: 20px;}
+    .product h2{font-size: 24px;}
+    .product p{font-size: 12px;font-weight: 400;}
+    .product a{font-size: 12px;font-weight: 400;}
+
+    /* <!------------- About Footer ----------------> */
+    .footer{display: block;padding: 150px 0px 150px 10px;}
+    .about{display: block; text-align: center; width: 100%;}
+    .about img{height: 25px;width: 100px;}
+    .mailbox{display: block;}
+    .fontaww{margin-right: 0px;}
+    .pages{width: 100%;text-align: center;}
+    .titpage{margin-top: 40px; width: 100%;}
+    .utipage{width: 100%; text-align: center;}
+    .download{width: 100%; text-align: center;}
+    .down{display: block;}
+    .lastfoot{display: block; text-align: center;}
+    .share{justify-content: center; margin: 30px 0px 50px 0px}
+
+}
+
+
+
+@media(max-width:460px){
+    /*   <!-- <.................Home.................> --> */
+    .logo { margin-top: 6px; width: 15%;height: 17px;}
+    .bacimg {height: 200px;width:93%;}
+    .home1 {height: 310px;}
+    .pera {width: 35%;top: 50px;}
+    .build {font-size: 18px;font-weight: 999;}
+    .pera p {margin-top: 5px;font-size: 10px;margin-bottom: 10px;font-weight: 700;}
+    .graph {width: 55%;height: 160px;top: 70px;right: 20px;}
+    .butt {width: 70%; padding: 3px;font-size: 10px;font-weight: 700;}
+    .butt img {padding: 0px;height: 10px;width: 10px;}
+
+    /* <.................Feature.................> */
+    .futures{ height:400px;margin-bottom: 0px;}
+    .heading{margin-top: 5px;}
+    .power{margin-top: 20px;font-size: 18px; font-weight: 999;}
+    .post{height: 300px;padding: 1px;display: block;}
+    .card{height: 350px;width: 60%;}    
+    .card h3{margin-top: 20px;font-size: 16px;font-weight: 999;}
+    .card p{font-size: 10px;font-weight: 700;}
+    .card a{font-size: 10px;margin-top: 10px; font-weight: 700;}  
+    .powbuild{display: block;height: 500px; margin-top: 830px;background-size: 130px 300px;background-position-y: 200px;}
+    .powpera{width: 100%;padding: 8px;margin-top: 10px;text-align: center;}
+    .powpera h2{font-size: 18px;font-weight: 999;}
+    .powpera p{font-size: 10px;font-weight: 700;}
+    .cost{display: block;}
+    .cost img{height: 40px;margin-right: 0px;}
+    .cont{padding: 0px;}
+    .cont h3{font-size: 18px;font-weight: 999;}
+    .cont p{font-size: 10px;font-weight: 700;}
+    .powimg{width: 80%;padding-top: 0px;border-radius: 20px;height: auto; margin: 18px auto;}
+    .powimg img{height: 230px;}
+
+
+    /* <.................How it work.................>  */
+    .work{margin-top: 80px;}
+    .worktite h2{margin-top: 12px;font-size: 18px;}
+    .itbut{ font-size: 10px;font-weight: 700; padding: 7px 15px 7px 15px;}
+    .bros{margin-top: 15px;}
+    .bros button{width: 31%;padding: 8px;font-size: 10px;font-weight: 700;}
+    .creatacc{margin-top: 20px;width: 100%;display: block;}
+    .menual{padding: 10px 20px 2px 20px;}
+    .worklog{display: block;}
+    .worklog h2{font-size: 18px;margin-top: 2px;}
+    .worklog img{height: 35px;}
+    .workbutt{width: 100%;font-size: 10px;padding: 6px;margin: 5px 3px 3px 0px;}
+    .menual p{font-size: 10px;font-weight: 400;margin-top: 5px;}
+    .createimg{width: 65%;margin: 10px auto;}
+    .createimg img{height: 140px; width: 100%;}
+
+    /*  <!------------- James intro slider ----------------> */
+    .james{height: 480px;;margin-top: 90px;}
+    .jmsinfo{margin: 20px auto;}
+    .james button{width: 100px;font-size: 12px;padding: 5px;}
+    .james h2{font-size: 18px;margin-top: 5px;font-weight: 900;}
+    .james p{font-size: 10px;font-weight: 400;}
+    .coma{font-size: 40px;}
+    .james img{margin-top: 5px;}
+    .james h3{font-size: 18px;font-weight: 900;margin-top: 5px;}
+    .jamespote{height: 70px;}
+    .james h4{font-size: 10px;font-weight: 700;margin-top: 5px;}
+    .fa-star{font-size: 8px;}
+    .fa-star-half{font-size: 10px;font-weight: 700;}
+
+    /*  <!------------- Pricing ----------------> */
+    .pricing{margin-top: 10px;display: block;padding: 30px;}
+    .basic{margin: 10px auto;}
+    .simple{padding: 70px 0px 0px 10px;}
+    .itbut{padding: 8px 20px 8px 20px;font-size: 10px;font-weight: 800;}
+    .simple h2{font-size: 18px;font-weight: 900; margin-top: 15px;}
+    .simple p{font-size: 10px;font-weight: 600; margin-top: 7px;}
+    .simple h3{font-size: 16px;font-weight: 900;margin-top: 0px;}
+    .upi{height: 40px;width: 250px;margin-bottom: 20px;}
+    .titl{border-bottom: 2px solid gray;display: flex;}
+    .titl h3{margin: 5px 75px 5px 2px;font-size: 18px;margin-top: 25px;}
+    .titbut{padding: 6px 10px 6px 10px ;margin: 20px 3px 3px 3px; font-size: 16px; font-weight: 800;}
+    .pri{border-bottom: 2px solid gray;}
+    .pri button{padding: 9px;font-size: 10px;font-weight: 800;margin-bottom: 8px;}
+    .pri h3{font-size: 18px;font-weight: 800;margin-top: 10px;}
+    .list{text-align: center;margin-top: 20px;margin-right: 27px;}
+    .list li{display: block; font-size: 10px;font-weight: 500;line-height: 20px;}
+    .libut{padding: 5px 10px 5px 10px;margin-top: 20px;font-size: 10px;}
+    .addbut{font-size: 10px;font-weight: 800;padding: 6px 10px 6px 10px;margin: 20px 3px 3px 3px;}
+
+    /* <!------------- starting graph ----------------> */
+    .start{margin-top: 30px;margin-bottom: 10px;display: block;padding: 50px 50px 90px 50px;}
+    .startimg{height: 150px;width: 80%;margin: 30px 0px 0px 30px;}
+    .babypic{height: 100px;width: 160px;bottom: -65px;left: -45px;}
+    .tiyal h2{font-size: 18px;font-weight: 999; margin-top: 0px;}
+    .tiyal p{font-size: 10px;font-weight: 700;margin-top: 5px;}
+    .inpu button{font-size: 12px;margin-left: 5px;}
+    .tiyal{width: 100%;text-align: center;}
+    .inpu{display: flex;margin: 10px auto;justify-content: center; text-align: center;}
+    .inpu textarea{padding: 0px 25px 0px 25px;font-size: 11px;font-weight: 400;}
+    .inpu button{font-size: 10px;font-weight: 500;padding: 4px 15px 5px 15px;margin-left: 8px;}
+
+    /*   <!------------- populer blog ----------------> */
+    .popublog{height: auto;padding: 50px;}
+    .poptit h2{font-size: 18px;font-weight: 999;margin-top: 12px;}
+    .poproduct{display: block;}
+    .product{width: 100%;padding: 10px 20px 8px 20px;}
+    .product img{height: 150px;margin-bottom: 10px;}
+    .product h2{font-size: 16px;font-weight: 900;margin-top: 6px;}
+    .product p{font-size: 10px;font-weight: 400;margin-top: 6px;}
+    .product a{font-size: 10px;font-weight: 400;}
+
+    /* <!------------- About Footer ----------------> */
+    .footer{display: block;padding: 30px 0px 30px 10px;}
+    .about img{height: 15px;width: 55px;}
+    .titpage{margin-top: 10px; width: 100%;}
+    .about{display: block; text-align: center; width: 100%;}
+    .mailbox{display: block;}
+    .fontaww{margin-right: 0px;}
+    .pages{width: 100%;text-align: center;}
+    .utipage{width: 100%; text-align: center;}
+    .titpage h3{font-size: 16px;padding-bottom: 0px; margin-top: 25px; font-weight: 900;}
+    .pages p{font-size: 10px;font-weight: 700; margin-top: 1px;}
+    .about p{font-size: 10px;font-weight: 700;margin-top: 10px;}
+    .utipage p{font-size: 10px;font-weight: 700;}
+    .download h4{font-size: 10px;font-weight: 900;}
+    .download h3{font-size: 18px;font-weight: 900;margin-top: 7px;}
+    .download p{font-size: 10px;font-weight: 700;margin-top: 6px;}
+    .mailtwo{font-size: 10px;font-weight: 700;}
+    .mailbox{display: block;margin-top: 2px;}
+    .mailtwo h6{font-size: 10px;font-weight: 700;}
+    .fontaww{margin-right: 1px;font-size: 12px;}
+    .titpage{width: 70%;margin: 0px auto;}
+    .download{width: 100%;padding-top: 30px;}
+    .down button{margin-top: 5px;padding: 7px 15px 7px 15px;font-size: 10px;font-weight: 700;margin-right: 5px;}
+    .down button img{height: 9px; margin-right: 5px;}    
+    .lastfoot{display: block;margin-top: 10px;}
+    .lastline{font-size: 11px;font-weight: 700;}
+    .share img{padding-right: 10px;height: 10px;border: 2px solid rgba(253, 251, 251, 0);}
+
+}
